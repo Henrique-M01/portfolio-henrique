@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
 export default function AboutPage() {
@@ -14,6 +15,7 @@ export default function AboutPage() {
         magni minima obcaecati ex exercitationem sit! Quam sequi culpa laborum?
       </p>
       <p>Algumas imagens(abstrações, emojis, logos techs?)</p>
+      <Footer />
     </div>
   )
 }

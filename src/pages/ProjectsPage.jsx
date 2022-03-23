@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
 export default function ProjectsPage() {
@@ -5,6 +6,7 @@ export default function ProjectsPage() {
     <div>
       <Header />
       <p>CARD DE PROJETOS(COMPONENTE SEPARADO)</p>
+      <Footer />
     </div>
   )
 }
