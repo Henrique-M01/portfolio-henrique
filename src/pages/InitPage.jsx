@@ -1,13 +1,13 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
-import img from "../images/foto_portfolio.png";
+import img from "../images/foto.png";
 
 export default function HomePage() {
   return (
     <div>
       <Header />
-      <div className="flex justify-around items-center bg-background-black h-screen">
-        <div className="text-gray-text text-3xl font-bold px-10 max-w-4xl">
+      <div className="flex justify-center items-center bg-background-black h-screen">
+        <div className="text-gray-text text-5xl font-bold px-10 max-w-4xl">
           <p>
             "Você é o único representante do seu sonho
             na face da terra. Se isso não fizer você correr, chapa.
