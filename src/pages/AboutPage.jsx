@@ -21,7 +21,7 @@ export default function AboutPage() {
           utilizando React.Js juntamente com Redux e/ou context-API. Possuo conhecimentos em HTML e CSS.<br /> <br />
           Juntamente a isso, me apliquei a um bootcamp na área de dados, conhecendo o famoso Python e dando aquela pincela em servidores cloud
           como (AWS, Azure, Google Cloud).<br /> <br />
-          Estou em busca da minha primeira oportunidade na área de tecnologia e gostaria de poder com você, que tal me conhecer melhor?
+          Estou em busca da minha primeira oportunidade na área de tecnologia, que tal me conhecer melhor?
           <br />
           <button
             onClick={() => navigate('/contact')}
@@ -31,7 +31,7 @@ export default function AboutPage() {
           </button>
         </p>
         <img
-          className="w-1/3 h-1/3 pt-48 mb-48 mr-20 ml-20"
+          className="w-1/3 h-1/3 pt-48 mb-48 mr-20 ml-20 hover:animate-pulse"
           src={ logosTech }
           alt="Imagens de logotipos de tecnologias"
         />
