@@ -51,7 +51,7 @@ export default function ContactPage() {
         </div>
         <div className="flex justify-center pb-20">
           <a
-            className="hover:text-purple-800 delay-100 mr-14"
+            className="hover:text-purple-800 delay-100 mr-20"
             href="https://www.linkedin.com/in/henrique-martins01/"
             target="_blank"
             rel="noreferrer"
@@ -59,7 +59,7 @@ export default function ContactPage() {
             <BsLinkedin size={70} />
           </a>
           <a
-            className="hover:text-purple-800 delay-100 mr-14"
+            className="hover:text-purple-800 delay-100 mr-20"
             href="https://github.com/Henrique-M01"
             target="_blank"
             rel="noreferrer"
