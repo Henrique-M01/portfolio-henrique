@@ -11,7 +11,7 @@ export default function ContactPage() {
     <div>
       <Header />
       <div className="pt-28 bg-background-black">
-        <h1 className="flex justify-center mt-24 text-5xl font-bold text-white-title">Fale comigo!</h1>
+        <h1 className="flex justify-center mt-10 text-5xl font-bold text-white-title">Fale comigo!</h1>
         <div className="flex justify-around">
           <div className="text-gray-text text-4xl font-semibold flex flex-col justify-center py-26 ml-28">
             <button
@@ -51,7 +51,7 @@ export default function ContactPage() {
         </div>
         <div className="flex justify-center pb-20">
           <a
-            className="hover:text-purple-800 delay-100 mr-20"
+            className="hover:text-purple-800 delay-100 mr-20 text-gray-text"
             href="https://www.linkedin.com/in/henrique-martins01/"
             target="_blank"
             rel="noreferrer"
@@ -59,7 +59,7 @@ export default function ContactPage() {
             <BsLinkedin size={70} />
           </a>
           <a
-            className="hover:text-purple-800 delay-100 mr-20"
+            className="hover:text-purple-800 delay-100 mr-20 text-gray-text"
             href="https://github.com/Henrique-M01"
             target="_blank"
             rel="noreferrer"
@@ -67,7 +67,7 @@ export default function ContactPage() {
             <BsGithub size={70}/>
           </a>
           <a
-            className="hover:text-purple-800 delay-100"
+            className="hover:text-purple-800 delay-100 text-gray-text"
             href="https://www.instagram.com/hmartinswd2/"
             target="_blank"
             rel="noreferrer"
