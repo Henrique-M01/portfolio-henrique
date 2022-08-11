@@ -1,19 +1,16 @@
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import logosTech from "../images/logosTech.png";
-import img from "../images/foto.png";
-
-export default function CardProjects() {
+export default function CardProjects(project) {
+  const { name, description, image, gitHub, techs } = project.project;
   return (
-    <Carousel className='h-screen flex flex-col justify-center py-24' width="50%" autoPlay={ true } infiniteLoop={ true }>
-      <div>
-        <img src={logosTech} alt="Logos de tecnologias" className='w-10' />
-        <p>Logo sobre as techs</p>
+    <div className="card flex flex-row justify-between bg-backgound-header rounded-3xl mt-10">
+      <div className="card-image">
+        <img src={image} alt="foto"/>
       </div>
-      <div>
-        <img src={img} alt="Logos de tecnologias" />
-        <p>Imagem do Henrique</p>
+      <div className='flex flex-col'>
+        <h1 className='mt-5 mb-10'>{ name }</h1>
+        <p className='mb-10'>{ description }</p>
+        <p className='mb-10'>{ `Link do repositorio: ${gitHub}` }</p>
+        <p>{ `Tecnologias utilizadas: ${techs}` }</p>
       </div>
-    </Carousel>
+    </div>
   )
 }
