@@ -1,31 +1,39 @@
+import imageRecipeApp from '../images/recipe-app-foods.png';
+import imageDeliveryApp from '../images/delivery-app.png';
+import imageArticlesApp from '../images/app-scientific-articles.png';
+
 const projects = [
   {
-    name: 'App de Receitas: Drinks and Foods',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    image: 'https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png',
-    gitHub: 'https://www.google.com',
-    techs: 'Redux, React, Node, Express, MongoDB',
+    name: 'Frontend: App de Receitas - Drinks and Foods',
+    description: 'App de receitas de comidas e bebidas, desenvolvido em React, com o objetivo de consumir uma API de receitas. Implementamos algumas funcionalidades extras, como a possibilidade de favoritar receitas, compartilhar receitas, entre outras.',
+    image: imageRecipeApp,
+    gitHub: 'https://github.com/Henrique-M01/App_receitas',
+    techs: 'Javascript, React, Redux, Context API, CSS, HTML, RTL e Metodologias Ágeis',
+    deploy: 'https://drinks-and-foods.surge.sh/',
   },
   {
-    name: 'App de delivery: Embreagados',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    image: 'https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png',
-    gitHub: 'https://www.google.com',
-    techs: 'Redux, React, Node, Express, MongoDB',
+    name: 'Fullstack: App de delivery - Embreagados',
+    description: 'Aplicação fullstack desenvolvida do zero, em time de 5 pessoas, com o objetivo de criar um delivery de bebidas. Utilizamos React no frontend, Node.js, autenticações com JWT no backend e MySQL no banco de dados.',
+    image: imageDeliveryApp,
+    gitHub: 'https://github.com/Henrique-M01/delivery_app',
+    techs: 'Javascript, React, redux, CSS, HTML, Node.js, Express, MySQL, Sequelize, JWT e Metodologias Ágeis',
+    deploy: false,
   },
   {
     name: 'Backend: API de jogos de campeonato',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    image: 'https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png',
-    gitHub: 'https://www.google.com',
-    techs: 'Redux, React, Node, Express, MongoDB',
+    description: 'API desenvolvida em Node.js com Typescript, com o objetivo de criar um campeonato de jogos. Utilizamos o banco de dados MySQL e o ORM Sequelize para persistência dos dados.',
+    image: 'https://files.tecnoblog.net/wp-content/uploads/2021/10/back-end.png',
+    gitHub: 'https://github.com/Henrique-M01/trybe_futebol_clube',
+    techs: 'Typescript, Node.js, Express, MySQL, Sequelize, JWT, Docker, Mocha, Chai e Sinon.',
+    deploy: false,
   },
   {
-    name: 'Frontend: App de musicas',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    image: 'https://www.portalgsti.com.br/media/uploads/marcomascarenhas/javascript.png',
-    gitHub: 'https://www.google.com',
-    techs: 'Redux, React, Node, Express, MongoDB',
+    name: 'Frontend: App Artigos Científicos',
+    description: 'Frontend desenvolvido para testar conhecimentos nas tecnologias utilizadas. Consumimos uma Api de artigos científicos, com o objetivo de favoritar artigos e implementar páginações.',
+    image: imageArticlesApp,
+    gitHub: 'https://github.com/Henrique-M01/challengeMettzer',
+    techs: 'Javascript, React, CSS, HTML',
+    deploy: 'https://challenge-mettzer-henrique.netlify.app',
   },
 ];
 
