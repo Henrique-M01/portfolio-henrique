@@ -14,7 +14,7 @@ export default function ProjectsPage() {
         <h1 className="text-2xl font-bold text-white-title mt-10">Conheça meus projetos</h1>
         <div className='flex flex-row'>
           <button
-            className='mr-5 text-gray-text'
+            className='pt-20 pb-20 mr-5 pl-5 text-gray-text text-5xl hover:text-purple-bottom delay-100 cursor-pointer'
             onClick={() => {
               if (count > 0) {
                 setCount(count - 1);
@@ -23,7 +23,7 @@ export default function ProjectsPage() {
           >{"<"}</button>
           <CardProjects project={projects[count]}/>
           <button
-            className='ml-5 text-gray-text'
+            className='pt-20 pb-20 ml-5 pr-5 text-gray-text text-5xl hover:text-purple-bottom delay-100 cursor-pointer'
             onClick={() => {
               if (count < 3) {
                 setCount(count + 1);
