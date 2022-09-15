@@ -8,8 +8,8 @@ export default function CardProjects(project) {
       <div className='flex flex-col'>
         <h1 className='mt-5 mb-10'>{ name }</h1>
         <p className='mb-10'>{ description }</p>
-        <p className='mb-10'>{ `Link do repositorio: ${gitHub}` }</p>
         <p>{ `Tecnologias utilizadas: ${techs}` }</p>
+        <a href={ gitHub } target="_blank" rel="noreferrer">Acesse o repositório do projeto aqui</a>
       </div>
     </div>
   )
